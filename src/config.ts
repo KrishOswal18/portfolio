@@ -97,7 +97,7 @@ export const config = {
             technologies: "Java 17, Spring Boot 3, Spring Data JPA, MySQL, Thymeleaf, JUnit 5, Docker, GitHub Actions",
             image: "/images/placement-portal.svg",
             description: "Campus placement system with 6 normalised tables and 4 eligibility rules enforced in the service layer, a read-only REST API answering in 2 to 6 ms, 14 JUnit and MockMvc tests, and a Docker plus GitHub Actions pipeline.",
-            link: "https://github.com/priyankabana/placement-portal"
+            link: "https://vu-placement-portal.onrender.com"
         }
     ],
     contact: {
