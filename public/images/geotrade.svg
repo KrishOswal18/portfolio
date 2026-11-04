@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<defs><radialGradient id="g" cx="70%" cy="20%" r="90%"><stop offset="0" stop-color="#5ee0ff" stop-opacity=".35"/><stop offset=".6" stop-color="#0b3d5c"/><stop offset="1" stop-color="#05090f"/></radialGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<g transform="translate(180,40)"><ellipse cx="600" cy="300" rx="170" ry="170" fill="none" stroke="#5ee0ff" stroke-opacity=".35" stroke-width="2"/><ellipse cx="600" cy="300" rx="120" ry="170" fill="none" stroke="#5ee0ff" stroke-opacity=".35" stroke-width="2"/><ellipse cx="600" cy="300" rx="60" ry="170" fill="none" stroke="#5ee0ff" stroke-opacity=".35" stroke-width="2"/><circle cx="600" cy="300" r="170" fill="none" stroke="#5ee0ff" stroke-width="3"/><path d="M430 300h340M600 130v340" stroke="#5ee0ff" stroke-opacity=".35" stroke-width="2"/><circle cx="520" cy="220" r="7" fill="#5ee0ff"/><circle cx="690" cy="250" r="7" fill="#5ee0ff"/><circle cx="640" cy="380" r="7" fill="#5ee0ff"/><circle cx="560" cy="350" r="7" fill="#5ee0ff"/><path d="M520 220L690 250L640 380L560 350Z" fill="none" stroke="#5ee0ff" stroke-width="2" stroke-dasharray="6 6"/></g>
+<text x="70" y="560" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">GeoTrade</text>
+<text x="72" y="610" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#5ee0ff">Supply-chain exposure map</text>
+</svg>

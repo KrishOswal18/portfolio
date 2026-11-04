@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<defs><radialGradient id="g" cx="70%" cy="20%" r="90%"><stop offset="0" stop-color="#fbbf24" stop-opacity=".35"/><stop offset=".6" stop-color="#2a1a08"/><stop offset="1" stop-color="#05090f"/></radialGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<g transform="translate(180,40)"><rect x="440" y="340" width="32" height="80" rx="6" fill="#fbbf24" fill-opacity="0.35"/><rect x="488" y="280" width="32" height="140" rx="6" fill="#fbbf24" fill-opacity="0.43999999999999995"/><rect x="536" y="310" width="32" height="110" rx="6" fill="#fbbf24" fill-opacity="0.53"/><rect x="584" y="230" width="32" height="190" rx="6" fill="#fbbf24" fill-opacity="0.62"/><rect x="632" y="260" width="32" height="160" rx="6" fill="#fbbf24" fill-opacity="0.71"/><rect x="680" y="190" width="32" height="230" rx="6" fill="#fbbf24" fill-opacity="0.7999999999999999"/><rect x="728" y="220" width="32" height="200" rx="6" fill="#fbbf24" fill-opacity="0.89"/></g>
+<text x="70" y="560" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">IPL Analytics</text>
+<text x="72" y="610" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#fbbf24">10+ seasons of match data</text>
+</svg>
