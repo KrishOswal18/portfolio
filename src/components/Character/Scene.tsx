@@ -12,6 +12,7 @@ import {
 } from "./utils/mouseUtils";
 import setAnimations from "./utils/animationUtils";
 import { setProgress } from "../Loading";
+import { markNoWebGL } from "../../utils/webgl";
 
 const Scene = () => {
   const canvasDiv = useRef<HTMLDivElement | null>(null);
@@ -27,11 +28,17 @@ const Scene = () => {
       const aspect = container.width / container.height;
       const scene = sceneRef.current;
 
-      const renderer = new THREE.WebGLRenderer({
-        alpha: true,
-        antialias: window.devicePixelRatio < 2,
-        powerPreference: "high-performance",
-      });
+      let renderer: THREE.WebGLRenderer;
+      try {
+        renderer = new THREE.WebGLRenderer({
+          alpha: true,
+          antialias: window.devicePixelRatio < 2,
+          powerPreference: "high-performance",
+        });
+      } catch {
+        markNoWebGL();
+        return;
+      }
       renderer.setSize(container.width, container.height);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
       renderer.toneMapping = THREE.ACESFilmicToneMapping;

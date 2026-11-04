@@ -11,6 +11,7 @@ import Work from "./Work";
 import TechStackNew from "./TechStackNew";
 import CallToAction from "./CallToAction";
 import setSplitText from "./utils/splitText";
+import { canUseWebGL, markNoWebGL } from "../utils/webgl";
 
 const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
@@ -33,6 +34,10 @@ const MainContainer = ({ children }: PropsWithChildren) => {
 
   useEffect(() => {
     if (window.innerWidth <= 1024) return;
+    if (!canUseWebGL()) {
+      markNoWebGL();
+      return;
+    }
 
     let timeoutId: ReturnType<typeof setTimeout> | undefined;
     let idleId: number | undefined;
