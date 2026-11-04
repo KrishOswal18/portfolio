@@ -70,7 +70,7 @@ export const config = {
             technologies: "Python, FastAPI, PostgreSQL, PostGIS, React, TypeScript, Three.js, Docker",
             image: "/images/geotrade.svg",
             description: "A supply-chain exposure map on a 3D globe. Cleaned 29,442 raw listings from 7 exchange files into 23,020 deduplicated, geolocated companies across 90 HQ countries, stored in a 25-table PostGIS schema behind a FastAPI read API with p95 under 60 ms. Final-year project.",
-            link: "https://geotrade-priyanka.vercel.app"
+            link: "https://geotrade-atlas.vercel.app"
         },
         {
             id: 2,
