@@ -46,7 +46,7 @@ export const config = {
         {
             position: "B.Tech, Computer Science & Engineering",
             company: "Vishwakarma University, Pune",
-            period: "2022 - 2027",
+            period: "2023 - 2027",
             location: "Pune, India",
             description: "Coursework in Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, Machine Learning and Deep Learning. Certified in Python and DSA (Tutedude), SQL (HackerRank) and Responsive Web Design (freeCodeCamp).",
             responsibilities: [],
